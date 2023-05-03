@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/background-OM.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+    width: 150px;
+    margin: 10px 0 0 30px;
+}
+
+.title h1 {
+    width: 550px;
+    margin: 20px auto 0;
+    text-transform: uppercase;
+    color: #0097d7;
+    border-bottom: 2px solid #0097d7;
+    text-align: center;
+
+}
+
+.app {
+    background-color: #0097d7;
+    box-shadow: 8px 16px 15px rgba(0, 0, 0, 0.438);
+    width: 90%;
+    max-width: 600px;
+    margin: 80px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    border-bottom: 1px solid #c5a459;
+    padding-bottom: 20px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #c5a459;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: whitesmoke;
+    color: #222;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #c5a459;
+    color: #f5f5f5;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: #c5a459;
+    color: #f5f5f5;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
+
+.footer {
+    
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.footer p {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px;
+    color: #0097d7;
+}
+
+@media screen and (max-width: 587px) {
+    .title h1 {
+        width: 350px;
+        margin: 40px auto 0;
+        font-size: 20px;
+    }
+
+    .app {
+        width: 90%;
+        max-width: 600px;
+        margin: 50px auto 100px;
+    }
+
+    .app h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .quiz {
+        padding: 0px 0;
+    }
+
+    .quiz h2 {
+        margin-top: 8px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer {
+        bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .footer p {
+        padding: 5px 0;
+    }
+
+    .logo {
+        width: 120px;
+        margin: 10px 0 0 30px;
+    }
+}
+
+   
+    
